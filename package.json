@@ -1,0 +1,21 @@
+{
+  "name": "sabaybuy.com",
+  "version": "0.0.1",
+  "description": "Online Shopping and E-commerce website in Cambodia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.org/panitabi/sabaybuy.git"
+  },
+  "author": "Meach Sopanith",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-stylus": "^0.14.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-cssmin": "^0.9.0"
+  }
+}

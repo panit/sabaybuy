@@ -1,0 +1,96 @@
+#two-columns-main
+	margin-top: 20px
+
+#two-columns-left
+	width: 239px
+	border-right: item-border
+
+#two-columns-right
+	margin-left: -1px;
+	padding-left: 20px
+	width: 700px
+	border-left: item-border
+	& input[type=text], input[type=password], textarea, select
+		width: 500px
+	& .checklist
+		width: 519px
+	& .redactor_box
+		width: 500px;
+		display: inline-block;
+		vertical-align: top;
+	#index-link a
+		display: inline-block
+		margin-left: 8px
+		font-size: 16px
+		min-width: 15px
+		text-align: center
+		&:first-child
+			margin-left: 0
+			text-align: left
+		&:hover
+			text-decoration: underline
+#two-columns-menu
+	font-family: oswaldbook
+	font-size: 13px
+	text-transform: uppercase
+	margin-bottom: 20px
+	& li
+		border-top: item-border
+		margin-right: 10px
+		& a
+			padding: 7px 10px
+			display: block
+		&:first-child
+			border: none
+		&:hover
+			border-color: #FFF
+			background: #999
+			& a
+				color: #FFF
+			& + li
+				border-color: #FFF
+		&.active
+			border-color: #FFF
+			background: #333
+			& a
+				color: #FFF
+			& + li
+				border-color: #FFF
+
+#right-container
+	border: item-border
+	background: #F4F4F4
+	&-header
+		background: #333
+		color: #FFF
+		padding: 10px 20px
+		font-family: oswaldbook
+		font-size: 18px
+		text-transform: uppercase
+	&-inner
+		margin: 20px
+
+#two-columns-right-top
+	border-bottom: 2px solid #333
+	padding-bottom: 10px
+	margin-bottom: 20px
+
+#two-columns-breadcrumbs
+	margin-top: 14px
+	font-size: 15px
+	white-space: nowrap
+	text-overflow: ellipsis
+	width: 600px
+	overflow: hidden
+	a:hover
+		text-decoration: underline
+
+.sidebar-title
+	font-family: oswaldbook
+	text-transform: uppercase
+	font-size: 18px
+	border-bottom: 2px solid #333
+	margin-bottom: 10px
+	width:229px
+	& mark
+		color: #2DCC70
